@@ -46,6 +46,10 @@ ion-icon {
     box-shadow: 0 2px 2px rgb(191, 191, 191);
     z-index: 9999;
 }
+.nav-item .menu-item {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
 
 /* -------------------------------- */
 /* ------  HERO SECTION  ---------- */
@@ -76,8 +80,8 @@ ion-icon {
 }
 
 .hero__lightning-icon {
-    width: 40px;
-    margin: 15px 0;
+    font-size: 200%;    
+    margin-bottom: 10px;
 }
 
 /* -------------------------------- */
@@ -106,21 +110,36 @@ ion-icon {
     padding: 70px 0;
 }
 
+.skills .skills__content .skills__icon {
+    font-size: 300%;
+}
+
 .skills__cards {
     width: 70%;
     margin: 0 auto;
     -webkit-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
     -moz-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
     box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 
 .skills__nav {
     margin-bottom: -25px;
 }
 
-.skills__nav-link {
+.skills__nav-link { 
+    background-color: whitesmoke;
+}
+
+.skills__nav .skills__nav--wide .skills__nav-link {
     color: black;
     border-color: #dee2e6 #dee2e6 #fff !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 .skills__nav-link.active {
@@ -141,6 +160,8 @@ ion-icon {
     border: 1px solid transparent;
     border-color: #dee2e6 #dee2e6 #fff;
     border-top: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .skills__tab {
