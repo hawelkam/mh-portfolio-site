@@ -104,15 +104,29 @@ ion-icon {
     margin-bottom: -25px;
 }
 
+.skills__nav-link {
+    color: black;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+}
+
+.skills__nav-link.active {
+    color: #9bdb6d !important;
+}
+
 .skills__nav--wide {
     width: 33%;
 }
 
+.skills__nav--wide:last-child {
+    width: 34%;
+}
+
 .skills__content {
-    width: 99%;
+    width: 100%;
     background-color: #fff;
-    border-color: #dee2e6 #dee2e6 #fff;
     border: 1px solid transparent;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-top: none;
 }
 
 .skills__tab {
