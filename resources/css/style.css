@@ -6,6 +6,10 @@ p {
     font-family: 'EB Garamond', serif;
 }
 
+*:focus {
+    outline: none;
+}
+
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
@@ -31,6 +35,16 @@ p {
 ion-icon {
     margin-bottom: -5px;
     font-size: 150%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.982);
+    box-shadow: 0 2px 2px rgb(191, 191, 191);
+    z-index: 9999;
 }
 
 /* -------------------------------- */
