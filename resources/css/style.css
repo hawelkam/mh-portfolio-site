@@ -1,0 +1,187 @@
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'EB Garamond', serif;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header__logo {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 170%;
+    letter-spacing: 1px;
+    color: #000000;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+
+.primary-color {
+    background-color: #9bdb6d;
+}
+
+ion-icon {
+    margin-bottom: -5px;
+    font-size: 150%;
+}
+
+/* -------------------------------- */
+/* ------  HERO SECTION  ---------- */
+/* -------------------------------- */
+
+.hero {
+    padding: 70px 0;
+    background-image: url('/resources/img/pattern.png');
+}
+
+.hero__introduction {
+    width: 70%;
+    margin: 0 auto;    
+}
+
+.hero__photo {
+    width: 300px;
+    max-width: 400px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.hero__icons {
+    text-align: center;
+}
+
+.hero__lightning-icon {
+    width: 40px;
+    margin: 15px 0;
+}
+
+/* -------------------------------- */
+/* ------  ABOUT SECTION  --------- */
+/* -------------------------------- */
+
+.about {
+    background-color: #9bdb6d;
+}
+
+.about__long-copy h2 {
+    margin-bottom: 30px;
+}
+
+.about__long-copy {
+    font-size: 120%;
+    line-height: 2rem;
+    margin: 90px 20%;
+}
+
+/* -------------------------------- */
+/* ------  SKILLS SECTION  -------- */
+/* -------------------------------- */
+.skills {
+    background-color: #fcfcfc;
+    padding: 70px 0;
+}
+
+.skills__cards {
+    width: 70%;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+}
+
+.skills__nav {
+    margin-bottom: -25px;
+}
+
+.skills__nav--wide {
+    width: 33%;
+}
+
+.skills__content {
+    width: 99%;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border: 1px solid transparent;
+}
+
+.skills__tab {
+    padding: 20px 0px
+}
+
+.skills__btn {
+    font-family: 'Oswald', sans-serif;
+    background-color: #9bdb6d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #9bdb6d;
+}
+
+.skills__btn:hover,
+.skills__btn:active {
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    color: #9bdb6d;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+
+/* -------------------------------- */
+/* ------  PROJECTS SECTION  ------ */
+/* -------------------------------- */
+.projects {
+    height: 400px;
+}
+
+/* -------------------------------- */
+/* ------  TESTIMONIALS SECTION  --- */
+/* -------------------------------- */
+.testimonials {
+    /* obrazek w tle */
+    height: 400px;
+}
+
+/* -------------------------------- */
+/* ------  COMPANIES SECTION ------ */
+/* -------------------------------- */
+.companies {
+    background-color: #e9e9e9;
+    height: 400px;
+}
+
+/* -------------------------------- */
+/* ------  CONTACT SECTION  ------- */
+/* -------------------------------- */
+.contact {
+    background-color: #9bdb6d;
+    height: 400px;
+}
+
+
+/* -------------------------------- */
+/* ------  FOOTER  ---------------- */
+/* -------------------------------- */
+footer {
+    color: #fff;
+    background-color: rgb(70, 70, 70);
+}
