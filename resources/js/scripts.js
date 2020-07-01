@@ -10,13 +10,10 @@ $(document).ready(function() {
         offset: '90px'
     })
 
-    $('a[href*="#"]')
+    $("a.menu-item")
   // Remove links that don't actually link to anything
   .not('[href="#"]')
   .not('[href="#0"]')
-  .not('[href="#frontend')
-  .not('[href="#editor')
-  .not('[href="#journalist')
   .click(function(event) {
     // On-page links
     if (
