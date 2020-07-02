@@ -2,8 +2,16 @@ h1, h2 {
     font-family: 'Oswald', sans-serif;
 }
 
+h2 {
+    font-size: 250%;
+    margin-bottom: 45px;
+}
+
 p {
     font-family: 'EB Garamond', serif;
+    text-align: justify;
+    width: 70%;
+    margin: 20px auto;
 }
 
 *:focus {
@@ -56,8 +64,13 @@ ion-icon {
 /* -------------------------------- */
 
 .hero {
-    padding: 70px 0;
+    padding: 150px 0;
     background-image: url('/resources/img/pattern.png');
+}
+
+.hero h2,
+.skills .skills__content h2 {
+    margin-bottom: 10px;
 }
 
 .hero__introduction {
@@ -90,10 +103,6 @@ ion-icon {
 
 .about {
     background-color: #9bdb6d;
-}
-
-.about__long-copy h2 {
-    margin-bottom: 30px;
 }
 
 .about__long-copy {
@@ -154,6 +163,11 @@ ion-icon {
     width: 34%;
 }
 
+.skills__nav--wide a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
 .skills__content {
     width: 100%;
     background-color: #fff;
@@ -194,13 +208,110 @@ ion-icon {
     -o-border-radius: 30px;
 }
 
+.tab-content li {
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 5px;
+}
+
 
 /* -------------------------------- */
 /* ------  PROJECTS SECTION  ------ */
 /* -------------------------------- */
 .projects {
-    height: 400px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px 0;
 }
+
+.projects__card {
+    width: 30%;
+    margin: 1%;
+    overflow: hidden;
+}
+
+.img-hover {
+    background-color: #9bdb6d;
+}
+
+.img-hover img{
+    width: 100%;
+    margin: 0;
+    transform: scale(1.15);
+    transition: 0.5s;
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.img-hover:hover img {
+    transform: scale(1.03);
+    transition: 0.5s;
+    opacity: 0.6;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
+.projects__btn {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: #9bdb6d;
+    margin: 0 15%;
+    width: 70%;
+    padding: 5px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #9bdb6d;
+    opacity: 0;
+    transition: opacity .35s ease;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    -ms-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+}
+
+.projects__btn:hover,
+.projects__btn:active {
+    background-color: #9bdb6d;
+    color: white;
+}
+
+.img-hover:hover .projects__btn {
+    opacity: 1;
+}
+
+.img-hover h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    opacity: 0;
+    transition: opacity .35s ease;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    -ms-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+}
+
+.img-hover:hover h4 {
+    opacity: 1;
+}
+
+
 
 /* -------------------------------- */
 /* ------  TESTIMONIALS SECTION  --- */
