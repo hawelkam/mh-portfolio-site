@@ -1,0 +1,93 @@
+.projects {
+    width: 70%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.projects__card {
+    width: 30%;
+    margin: 1%;
+    overflow: hidden;
+}
+
+.img-hover {
+    background-color: #9bdb6d;
+}
+
+.img-hover img{
+    width: 100%;
+    margin: 0;
+    transform: scale(1.15);
+    transition: 0.5s;
+    opacity: 1;
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.img-hover:hover img {
+    transform: scale(1.03);
+    transition: 0.5s;
+    opacity: 0.6;
+    -webkit-transform: scale(1.03);
+    -moz-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    -o-transform: scale(1.03);
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.projects__btn {
+    font-family: 'Oswald', sans-serif;
+    background-color: white;
+    color: #9bdb6d;
+    margin: 0 15%;
+    width: 70%;
+    padding: 5px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #9bdb6d;
+    opacity: 0;
+    transition: opacity .35s ease;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    -ms-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+}
+
+.projects__btn:hover,
+.projects__btn:active {
+    background-color: #9bdb6d;
+    color: white;
+}
+
+.img-hover:hover .projects__btn {
+    opacity: 1;
+}
+
+.img-hover h4 {
+    font-family: 'Oswald', sans-serif;
+    color: #000;
+    opacity: 0;
+    transition: opacity .35s ease;
+    -webkit-transition: opacity .35s ease;
+    -moz-transition: opacity .35s ease;
+    -ms-transition: opacity .35s ease;
+    -o-transition: opacity .35s ease;
+}
+
+.img-hover:hover h4 {
+    opacity: 1;
+}

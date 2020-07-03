@@ -1,0 +1,98 @@
+.skills {
+    background-color: #fcfcfc;
+    padding: 70px 0;
+}
+
+.skills .skills__content .skills__icon {
+    font-size: 300%;
+}
+
+.skills__cards {
+    width: 70%;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    -moz-box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    box-shadow: 2px 2px 2px 0px rgba(150,150,150,1);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.skills__nav {
+    margin-bottom: -25px;
+}
+
+.skills__nav-link { 
+    background-color: whitesmoke;
+}
+
+.skills__nav .skills__nav--wide .skills__nav-link {
+    color: black;
+    border-color: #dee2e6 #dee2e6 #fff !important;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.skills__nav-link.active {
+    color: #fff !important;
+}
+
+.skills__nav--wide {
+    width: 33%;
+}
+
+.skills__nav--wide:last-child {
+    width: 34%;
+}
+
+.skills__nav--wide a {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+}
+
+.skills__content {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-color: #dee2e6 #dee2e6 #fff;
+    border-top: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.skills__tab {
+    padding: 20px 0px
+}
+
+.skills__btn {
+    font-family: 'Oswald', sans-serif;
+    background-color: #9bdb6d;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 2px solid #9bdb6d;
+}
+
+.skills__btn:hover,
+.skills__btn:active {
+    font-family: 'Oswald', sans-serif;
+    background-color: #fff;
+    color: #9bdb6d;
+    padding: 10px 30px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.tab-content li {
+    font-family: 'EB Garamond', serif;
+    margin-bottom: 5px;
+}
