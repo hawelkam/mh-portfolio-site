@@ -1,10 +1,11 @@
 import React from 'react'
 import './Testimonials.scss'
+import SectionHeading from '../SectionHeading'
 
 const Testimonials = () => {
     return (
         <section className="testimonials" id="testimonials">
-            TESTIMONIALS
+            <SectionHeading text="TESTIMONIALS" />
         </section>
     )
 }

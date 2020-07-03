@@ -1,15 +1,12 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import './Companies.scss'
+import SectionHeading from '../SectionHeading'
 
 const Companies = () => {
     return (
         <section className="companies" id="companies">
-            <Row>
-                <Col className="text-center">
-                    <h2>COMPANIES I WORKED WITH</h2>
-                </Col>
-            </Row>
+            <SectionHeading text="COMPANIES I WORKED WITH" />
             <Row>
                 <ul>
                     <li>NOKIA</li>

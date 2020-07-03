@@ -3,15 +3,12 @@ import { Row, Col, Nav, Tab} from 'react-bootstrap'
 import './Skills.scss'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode, faVideo, faGamepad, faBolt, faCog, faArrowAltCircleRight } from '@fortawesome/free-solid-svg-icons'
+import SectionHeading from '../SectionHeading'
 
 const Skills = () => {
     return (
         <section className="skills" id="skills">
-            <Row>
-                <Col className="text-center">
-                    <h2>SKILLS</h2>
-                </Col>
-            </Row>
+            <SectionHeading text="SKILLS" />
             <Tab.Container id="skills_tabs" defaultActiveKey="frontend">
                 <Row className="skills__cards flex-column text-center">
                     <Nav variant="pills" className="skills__nav">
