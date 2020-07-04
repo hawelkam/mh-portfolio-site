@@ -1,3 +1,39 @@
 .testimonials {
-    /* obrazek w tle */
+    position: relative;
 }
+
+.testimonials::after {
+    content: "";
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.41360294117647056) 0%, rgba(65,90,22,0.6909138655462185) 100%), url('../../img/keyboard.jpg');
+    background-size: cover;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+
+  .testimonial img {
+      height: 50px;
+  }
+
+  .testimonial {
+      height: 300px;
+  }
+
+  .testimonials__carousel {
+    width: 50%;
+    color: white;
+  }
+
+  .testimonial p {
+      font-size: 150%;
+      font-style: italic;
+      font-weight: 700;
+  }
+
+  .testimonials .section-heading {
+      color: white;
+  }

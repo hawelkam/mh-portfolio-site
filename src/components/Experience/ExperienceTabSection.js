@@ -4,7 +4,7 @@ import ExperienceTabSectionHeader from './ExperienceTabSectionHeader'
 
 export default class ExperienceTabSection extends Component {
     createList = (isOdd, data) => (
-        <ul>
+        <ul className="text-left">
             {data.filter((element, index) => 
                 index % 2 === isOdd 
             ).map(element => (

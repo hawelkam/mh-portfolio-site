@@ -1,3 +1,19 @@
 .companies {
-    background-color: #e9e9e9;
+    background-color: #ffffff;
+}
+
+.companies img {
+    height: 70px;
+}
+
+.company-list {
+    list-style: none;
+}
+
+.company-list li {
+    margin-right: 50px;
+}
+
+.company-list:first-child {
+    margin-bottom: 50px;
 }

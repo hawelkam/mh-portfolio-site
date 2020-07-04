@@ -14,21 +14,42 @@ const Projects = () => {
                 <Card className="text-white projects__card img-hover">
                     <Card.Img src={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
-                        <h4>PIOTR BILIK'S PORTFOLIO<br/>WEBSITE</h4>
+                        <h4>Portfolio website for a&nbsp;Junior UX&nbsp;Designer</h4>
                         <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
                 <Card className="text-white projects__card img-hover">
                     <Card.Img src={gameupPhoto} alt="GameUp NGO website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
-                        <h4>GAMEUP NGO<br/>WEBSITE</h4>
+                        <h4>GameUp NGO full Wordpress website config</h4>
                         <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
                 <Card className="text-white projects__card img-hover">
                     <Card.Img src={ekrukPhoto} alt="e-Kruk website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
-                        <h4>E-KRUK<br/>SYSTEM</h4>
+                        <h4>Various front- and backend features for the eKruk web app</h4>
+                        <button className="projects__btn">LEARN MORE</button>
+                    </Card.ImgOverlay>
+                </Card>
+                <Card className="text-white projects__card img-hover">
+                    <Card.Img src={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" />
+                    <Card.ImgOverlay className="d-flex flex-column justify-content-around">
+                        <h4>Portfolio website for a&nbsp;Junior UX&nbsp;Designer</h4>
+                        <button className="projects__btn">LEARN MORE</button>
+                    </Card.ImgOverlay>
+                </Card>
+                <Card className="text-white projects__card img-hover">
+                    <Card.Img src={gameupPhoto} alt="GameUp NGO website" />
+                    <Card.ImgOverlay className="d-flex flex-column justify-content-around">
+                        <h4>GameUp NGO full Wordpress website config</h4>
+                        <button className="projects__btn">LEARN MORE</button>
+                    </Card.ImgOverlay>
+                </Card>
+                <Card className="text-white projects__card img-hover">
+                    <Card.Img src={ekrukPhoto} alt="e-Kruk website" />
+                    <Card.ImgOverlay className="d-flex flex-column justify-content-around">
+                        <h4>Various front- and backend features for the eKruk web app</h4>
                         <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
