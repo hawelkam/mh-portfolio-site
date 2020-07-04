@@ -5,7 +5,7 @@ const SectionHeading = ({text}) => {
     return (
         <Row>
             <Col className="text-center">
-                <h2>{text}</h2>
+                <h2 className="section-heading">{text}</h2>
             </Col>
         </Row>
     )

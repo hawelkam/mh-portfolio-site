@@ -19,7 +19,7 @@ const Contact = () => {
                 </Col>
                 <Col>
                     <form action="">
-                        <label for="content"></label>
+                        <label htmlFor="content"></label>
                         <textarea name="content" id="" cols="30" rows="10"></textarea>
                     </form>
                 </Col>

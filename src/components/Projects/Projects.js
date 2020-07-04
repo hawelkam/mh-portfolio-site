@@ -15,21 +15,21 @@ const Projects = () => {
                     <Card.Img src={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
                         <h4>PIOTR BILIK'S PORTFOLIO<br/>WEBSITE</h4>
-                        <button class="projects__btn">LEARN MORE</button>
+                        <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
                 <Card className="text-white projects__card img-hover">
                     <Card.Img src={gameupPhoto} alt="GameUp NGO website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
                         <h4>GAMEUP NGO<br/>WEBSITE</h4>
-                        <button class="projects__btn">LEARN MORE</button>
+                        <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
                 <Card className="text-white projects__card img-hover">
                     <Card.Img src={ekrukPhoto} alt="e-Kruk website" />
                     <Card.ImgOverlay className="d-flex flex-column justify-content-around">
                         <h4>E-KRUK<br/>SYSTEM</h4>
-                        <button class="projects__btn">LEARN MORE</button>
+                        <button className="projects__btn">LEARN MORE</button>
                     </Card.ImgOverlay>
                 </Card>
             </Row>
