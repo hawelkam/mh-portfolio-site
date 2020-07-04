@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from 'react-bootstrap'
+import { Row } from 'react-bootstrap'
 import './Companies.scss'
 import SectionHeading from '../SectionHeading'
 import nokiaLogo from '../../img/logos/nokia-logo.png'

@@ -10,13 +10,17 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
 import Experience from './components/Experience/Experience';
+import useSticky from './hooks/useSticky'
+
 
 function App() {
+  const { isSticky, element } = useSticky()
+
   return (
     <Container fluid>
-      <TopBar />
+      <TopBar sticky={isSticky}/>
       <Hero />
-      <About />
+      <About element={element}/>
       <Experience />
       <Projects />
       <Testimonials />
