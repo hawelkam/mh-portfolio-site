@@ -20,11 +20,12 @@
 }
 
 .skills__nav {
-    margin-bottom: -25px;
+    height: 49px;
 }
 
 .skills__nav-link { 
     background-color: whitesmoke;
+    font-size: 140%;
 }
 
 .skills__nav .skills__nav--wide .skills__nav-link {
@@ -92,6 +93,8 @@
 }
 
 .tab-content li {
-    font-family: 'EB Garamond', serif;
+    font-family: 'Oswald', sans-serif;
+    font-size: 110%;
+    text-transform: uppercase;
     margin-bottom: 5px;
 }
