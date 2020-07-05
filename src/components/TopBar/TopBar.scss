@@ -1,6 +1,6 @@
 .header__logo {
     font-size: 170%;
-  }
+}
 
 
 .sticky {
@@ -12,6 +12,10 @@
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
   z-index: 9999;
+}
+
+.active {
+  font-weight: 700;
 }
 
 @keyframes moveDown {

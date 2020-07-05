@@ -9,7 +9,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 const TopBar = ({sticky}) => {
     return (
         <header>
-            <Navbar collapseOnSelect expand="lg" bg={sticky ? "white" : "primary"} className={sticky ? "sticky" : ""}>
+            <Navbar collapseOnSelect expand="lg" bg="primary" className="sticky">
                 <Navbar.Brand className="header__logo">MICHAŁ<b>HAWEŁKA</b></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
