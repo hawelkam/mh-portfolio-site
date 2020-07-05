@@ -5,6 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopCode, faVideo, faGamepad } from '@fortawesome/free-solid-svg-icons'
 import SectionHeading from '../SectionHeading'
 import ExperienceTab from './ExperienceTab'
+import nokiaLogo from '../../img/logos/nokia-logo.png'
+import krukLogo from '../../img/logos/logo-kruk.png'
+import capLogo from '../../img/logos/capgemini-logo.png'
+import gameupLogo from '../../img/logos/gameup-logo.png'
+
 
 const skillsTabData = {
     "journalist" : {
@@ -28,7 +33,26 @@ const skillsTabData = {
             "Microsoft Office",
             "SEO"
         ],
-        experience: "test"
+        experience: [
+            {
+                companyLogo: nokiaLogo,
+                companyName: "Nokia",
+                position: "Software Engineer",
+                workPeriod: "May 2013 - June 2016",
+                responsibilities: [
+                    "C++ programming for BTS",
+                    "writing unit, module and SCT tests",
+                    "designing new features"
+                ],
+                keyTech: [
+                    "C++",
+                    "TTCN-3",
+                    "Python",
+                    "Bash",
+                    "Git"
+                ]
+            }
+        ]
     },
     "frontend" : {
         key: "frontend",
@@ -53,7 +77,85 @@ const skillsTabData = {
             "Webpack",
             "Agile/Scrum"
         ],
-        experience: "test"
+        experience: [
+            {
+                companyLogo: krukLogo,
+                companyName: "Kruk",
+                position: "Full-stack developer",
+                workPeriod: "June 2019 - current",
+                responsibilities: [
+                    "Design and implementation of backend features for e-Kruk platform",
+                    "Design and implementation of frontend features for e-Kruk platform",
+                    "Design and implementation of backend features for e-Novum platform",
+                    "Design and implementation of frontend features for e-Novum platform",
+                    "Implementation of new tools for optimizing team's workflow"
+                ],
+                keyTech: [
+                    "Java",
+                    "Kotlin",
+                    "AngularJS",
+                    "Angular",
+                    "Git",
+                    "Docker",
+                    "HTML5",
+                    "CSS/LESS"
+                ]
+            },
+            {
+                companyLogo: gameupLogo,
+                companyName: "GameUp",
+                position: "IT Specialist / Web Developer",
+                workPeriod: "January 2020 - current",
+                responsibilities: [
+                    "Design and implementation of backend features for e-Kruk platform",
+                    "Design and implementation of frontend features for e-Kruk platform",
+                    "Design and implementation of backend features for e-Novum platform",
+                    "Design and implementation of frontend features for e-Novum platform",
+                    "Implementation of new tools for optimizing team's workflow"
+                ],
+                keyTech: [
+                    "Wordpress",
+                    "HTML5",
+                    "CSS/LESS"
+                ]
+            },
+            {
+                companyLogo: capLogo,
+                companyName: "Capgemini",
+                position: "Java Developer",
+                workPeriod: "August 2017 - May 2019",
+                responsibilities: [
+                    "Design and implementation of backend features for e-Kruk platform",
+                    "Design and implementation of frontend features for e-Kruk platform",
+                    "Design and implementation of backend features for e-Novum platform",
+                    "Design and implementation of frontend features for e-Novum platform",
+                    "Implementation of new tools for optimizing team's workflow"
+                ],
+                keyTech: [
+                    "Java",
+                    "Git",
+                    "Swing"
+                ]
+            },
+            {
+                companyLogo: nokiaLogo,
+                companyName: "Nokia",
+                position: "Software Engineer",
+                workPeriod: "May 2013 - June 2016",
+                responsibilities: [
+                    "C++ programming for BTS",
+                    "writing unit, module and SCT tests",
+                    "designing new features"
+                ],
+                keyTech: [
+                    "C++",
+                    "TTCN-3",
+                    "Python",
+                    "Bash",
+                    "Git"
+                ]
+            }
+        ]
     },
     "editor" : {
         key: "editor",
@@ -74,7 +176,26 @@ const skillsTabData = {
             "Adobe Audition",
             "iMovie"
         ],
-        experience: "test"
+        experience: [
+            {
+                companyLogo: nokiaLogo,
+                companyName: "Nokia",
+                position: "Software Engineer",
+                workPeriod: "May 2013 - June 2016",
+                responsibilities: [
+                    "C++ programming for BTS",
+                    "writing unit, module and SCT tests",
+                    "designing new features"
+                ],
+                keyTech: [
+                    "C++",
+                    "TTCN-3",
+                    "Python",
+                    "Bash",
+                    "Git"
+                ]
+            }
+        ]
     }
 }
 
@@ -105,9 +226,9 @@ const Experience = () => {
                         </Nav.Item>
                     </Nav>
                     <Tab.Content className="skills__content">
-                        <ExperienceTab data={skillsTabData.frontend} />
-                        <ExperienceTab data={skillsTabData.editor} />
-                        <ExperienceTab data={skillsTabData.journalist}/>
+                        {Object.values(skillsTabData).map(tab => (
+                            <ExperienceTab key={tab.key} data={tab} />
+                        ))}
                     </Tab.Content>
                 </Row>
             </Tab.Container>

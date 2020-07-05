@@ -3,6 +3,7 @@ import { Row, Accordion, Card, Col, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLaptopHouse, faArrowAltCircleDown, faArrowAltCircleUp } from '@fortawesome/free-solid-svg-icons'
 import ExperienceTabSectionHeader from './ExperienceTabSectionHeader'
+import ExperienceHistoryItem from './ExperienceHistoryItem'
 
 export default class ExperienceTabExtension extends Component {
     state = {
@@ -32,13 +33,13 @@ export default class ExperienceTabExtension extends Component {
                                     <Col lg={3}>
                                         <ExperienceTabSectionHeader title="WORK HISTORY" icon={faLaptopHouse} />
                                     </Col>
-                                    <Col lg={3}>
-                                        NAZWA FIRMY <br/>
-                                        NAZWA POZYCJI <br/>
-                                        LATA PRACY
-                                    </Col>
                                     <Col>
-                                        {experience}
+                                        {experience.map((historyItem, index) => (
+                                            <React.Fragment key={historyItem.companyName}>
+                                                <ExperienceHistoryItem data={historyItem} />
+                                                {experience.length !== (index + 1) && <hr/>}
+                                            </React.Fragment>
+                                        ))}
                                     </Col>
                                 </Row>
                                 </Card.Body>
