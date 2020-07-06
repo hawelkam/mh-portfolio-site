@@ -30,3 +30,11 @@
   .hero__lightning-icon {
     margin-bottom: 10px;
   }
+
+  @media screen and (max-width: 768px) {
+    .hero {
+      &__introduction { flex-direction: column; }
+      div { text-align: center; }
+      &__photo { margin-bottom: 20px; }
+    }
+  }

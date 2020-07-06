@@ -25,3 +25,17 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .companies {
+        img {
+            height: 50px;
+        }
+    }
+    .company-list {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0 !important;
+        li { margin-bottom: 20px;}
+    }
+}

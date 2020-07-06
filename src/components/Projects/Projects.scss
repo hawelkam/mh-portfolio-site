@@ -104,5 +104,12 @@
             width: 70%;
         }
     }
+}
 
+@media screen and (max-width: 768px) {
+    .projects {
+        &__card {
+            width: 100%;
+        }
+    }
 }

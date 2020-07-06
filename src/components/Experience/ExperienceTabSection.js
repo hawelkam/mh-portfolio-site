@@ -16,7 +16,7 @@ export default class ExperienceTabSection extends Component {
     render() {
         const { title, icon, data } = this.props
         return (
-            <Row>
+            <Row className="experience-tab__direction">
                 <Col>
                     <ExperienceTabSectionHeader title={title} icon={icon} />
                 </Col>
