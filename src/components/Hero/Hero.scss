@@ -38,3 +38,15 @@
       &__photo { margin-bottom: 20px; }
     }
   }
+
+  @media screen and (max-width: 480px) {
+    .hero {
+      padding: 70px 0;
+      &__introduction {
+        div:first-of-type {
+          justify-content: center !important;
+        }
+      }
+      &__photo { width: 150px; }
+    }
+  }
