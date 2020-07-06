@@ -6,7 +6,7 @@ import About from './components/About/About'
 import './App.scss';
 import Projects from './components/Projects/Projects';
 import Companies from './components/Companies/Companies'
-import Testimonials from './components/Testimonials/Testimonials';
+// import Testimonials from './components/Testimonials/Testimonials';
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer';
 import Experience from './components/Experience/Experience';
@@ -23,7 +23,7 @@ function App() {
       <About element={element}/>
       <Experience />
       <Projects />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Companies />
       <Contact />
       <Footer />
