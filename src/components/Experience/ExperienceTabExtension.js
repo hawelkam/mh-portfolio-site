@@ -30,7 +30,7 @@ export default class ExperienceTabExtension extends Component {
                         <Accordion.Collapse eventKey="0">
                             <Card.Body>
                                 <Row>
-                                    <Col lg={3}>
+                                    <Col lg={3} className="work-history__header">
                                         <ExperienceTabSectionHeader title="WORK HISTORY" icon={faLaptopHouse} />
                                     </Col>
                                     <Col>

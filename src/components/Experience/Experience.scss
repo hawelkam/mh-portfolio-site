@@ -108,5 +108,11 @@
     font-family: 'EB Garamond', serif;
     text-transform: unset;
     font-weight: 400;
-    text-align: justify;
+    text-align: left;
+}
+
+@media screen and (max-width: 1200px) {
+    .work-history__header {
+        display: none;
+    }
 }

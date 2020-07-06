@@ -1,9 +1,17 @@
 .about {
     background-color: #9bdb6d;
+    .about__long-copy {
+        font-size: 120%;
+        line-height: 2rem;
+        margin: 0 20%;
+    }
 }
 
-.about__long-copy {
-    font-size: 120%;
-    line-height: 2rem;
-    margin: 0 20%;
+@media screen and (max-width: 1200px) {
+    .about {
+        .about__long-copy {
+            margin: 0 10%;
+        }
+    }
 }
+

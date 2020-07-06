@@ -1,19 +1,19 @@
 .companies {
     background-color: #ffffff;
+    img { height: 65px; }
+    .company-list { 
+        list-style: none;
+        li { margin-right: 50px; }
+        &:first-child {
+            margin-bottom: 50px;
+        }
+    }
 }
 
-.companies img {
-    height: 65px;
-}
-
-.company-list {
-    list-style: none;
-}
-
-.company-list li {
-    margin-right: 50px;
-}
-
-.company-list:first-child {
-    margin-bottom: 50px;
+@media screen and (max-width: 1200px) {
+    .companies {
+        img {
+            height: 40px;
+        }
+    }
 }
