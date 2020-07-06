@@ -92,3 +92,17 @@
 .img-hover:hover h4 {
     opacity: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .projects {
+        width: 70%;
+        &__cards {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__card {
+            width: 70%;
+        }
+    }
+
+}

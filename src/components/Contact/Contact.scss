@@ -31,6 +31,12 @@
     p {
         text-align: center;
     }
+
+    @media screen and (max-width: 1024px) {
+        .contact__row {
+            flex-direction: column;
+        }
+    }
 }
 
 

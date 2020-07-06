@@ -116,3 +116,20 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .skills__cards {
+        width: 90%;
+    }
+    .skills__nav {
+        height: unset;
+    }
+    .experience__row {
+        flex-direction: column;
+        h4 {
+            border-bottom: 2px solid #f2f2f2;
+            padding-bottom: 15px;
+        }
+    }
+
+}

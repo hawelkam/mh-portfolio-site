@@ -13,7 +13,7 @@ const Projects = () => {
         <section className="projects" id="projects">
             <SectionHeading text="PROJECTS" />
             <Fade bottom cascade>
-                <Row>
+                <Row className="projects__cards">
                     <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="Various front- and backend features for the eKruk web app" siteUrl="https://system.e-kruk.pl"/>
                     <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GameUp NGO full Wordpress website config" siteUrl="https://gameup.org.pl"/>
                     <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Portfolio website for a&nbsp;Junior UX&nbsp;Designer" siteUrl="https://piotrbilik.com"/>

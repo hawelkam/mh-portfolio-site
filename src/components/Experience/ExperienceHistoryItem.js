@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap'
 
 const ExperienceHistoryItem = ({data}) => {
     return (
-        <Row>
+        <Row className="experience__row">
             <Col>
                 <img src={data.companyLogo} alt="Company Logo" className="experience__company-logo"/>
                 <h3>{data.position}</h3>
