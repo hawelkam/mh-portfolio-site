@@ -14,15 +14,12 @@ const Projects = () => {
             <SectionHeading text="PROJECTS" />
             <Fade bottom cascade>
                 <Row>
-                    <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="Various front- and backend features for the eKruk web app" />
-                    <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GameUp NGO full Wordpress website config" />
-                    <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Portfolio website for a&nbsp;Junior UX&nbsp;Designer" />
-                    <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="Various front- and backend features for the eKruk web app" />
-                    <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GameUp NGO full Wordpress website config" />
-                    <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Portfolio website for a&nbsp;Junior UX&nbsp;Designer" />
-                    <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="Various front- and backend features for the eKruk web app" />
-                    <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GameUp NGO full Wordpress website config" />
-                    <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Portfolio website for a&nbsp;Junior UX&nbsp;Designer" />
+                    <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="Various front- and backend features for the eKruk web app" siteUrl="https://system.e-kruk.pl"/>
+                    <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GameUp NGO full Wordpress website config" siteUrl="https://gameup.org.pl"/>
+                    <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Portfolio website for a&nbsp;Junior UX&nbsp;Designer" siteUrl="https://piotrbilik.com"/>
+                    {/* <ProjectCard img={ekrukPhoto} alt="e-Kruk website" description="eNovum" />
+                    <ProjectCard img={gameupPhoto} alt="GameUp NGO website" description="GZW-Landing" />
+                    <ProjectCard img={pbProtfolioPhoto} alt="Piotr Bilik's portfolio website" description="Adam Flamma" /> */}
                 </Row>
             </Fade>
         </section>

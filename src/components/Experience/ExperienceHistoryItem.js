@@ -6,17 +6,17 @@ const ExperienceHistoryItem = ({data}) => {
         <Row>
             <Col>
                 <img src={data.companyLogo} alt="Company Logo" className="experience__company-logo"/>
-                <p>{data.position}</p>
-                <p>{data.workPeriod}</p>
+                <h3>{data.position}</h3>
+                <h4>{data.workPeriod}</h4>
             </Col>
             <Col>
-                <ul><h5>Responsibilities:</h5>
+                <ul className="responsibilities-list"><h5 style={{ textAlign: "left"}}>Responsibilities:</h5>
                     {data.responsibilities.map(item => (
                         <li key={item}>{item}</li>
                     ))}
                 </ul>
                 <hr/>
-                <ul>Key technologies:
+                <ul><h5 style={{ textAlign: "left"}}>Key skills:</h5>
                     {data.keyTech.map(item => (
                         <li key={item}>{item}</li>
                     ))}
